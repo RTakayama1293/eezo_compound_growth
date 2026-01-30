@@ -25,7 +25,7 @@ class SimulationParams:
     trust_quality: float = 5.0
 
     # 顧客獲得
-    monthly_visitors: int = 5000          # 月間サイト訪問者数
+    monthly_visitors: int = 2300          # 月間サイト訪問者数
     base_cvr: float = 0.015               # 基準CVR (1.5%)
 
     # 信頼効果 → CVR改善（対数関数で逓減）
@@ -54,8 +54,8 @@ class SimulationParams:
     repeat_order_premium: float = 1.15    # リピーターの客単価係数
 
     # 初期条件
-    initial_customers: int = 300
-    initial_ugc: int = 20
+    initial_customers: int = 100
+    initial_ugc: int = 10
 
     # シミュレーション期間
     months: int = 60  # 5年
